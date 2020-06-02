@@ -1,4 +1,4 @@
-# a prototype script that rns in the QGIS Python Console and Generates and NDVI and Key for TIF file orthomosaic drone images
+# a prototype script that runs in the QGIS Python Console and Generates and NDVI and Key for TIF file orthomosaic drone images
 # Coding developed by MuonRay Enterprises Ireland For Drone-based Mapping and Geomatics Projects (2018-2020)
 # This work is Creative Commons and is Open to use for educational, non-commercial and NGO use.
 
@@ -89,13 +89,13 @@ myColorRamp = QgsColorRampShader() #c
 i=[]
 
 i.append(qri(0, QColor(0,0,0,0), 'NODATA'))
-i.append(qri(100, QColor(120,69,25,255), 'Lowest Biomass'))
-i.append(qri(130, QColor(255,178,74,255), 'Lower Biomass'))
-i.append(qri(160, QColor(255,237, 166,255), 'Low Biomass'))
-i.append(qri(190, QColor(173,232,94,255), 'Moderate Biomass'))
-i.append(qri(220, QColor(135,181,64,255), 'High Biomass'))
-i.append(qri(250, QColor(3,156,0,255), 'Higher Biomass'))
-i.append(qri(280, QColor(1,100,0,255), 'Highest Biomass'))
+i.append(qri(100, QColor(120,69,25,255), 'Lowest Vegetation NDVI<0.1'))
+i.append(qri(130, QColor(255,178,74,255), 'Lower Vegetation NDVI<0.3'))
+i.append(qri(160, QColor(255,237, 166,255), 'Low Vegetation NDVI<0.5'))
+i.append(qri(190, QColor(173,232,94,255), 'Moderate Vegetation NDVI>0.5'))
+i.append(qri(220, QColor(135,181,64,255), 'High Vegetation NDVI>0.5'))
+i.append(qri(250, QColor(3,156,0,255), 'Higher Vegetation NDVI>0.7'))
+i.append(qri(280, QColor(1,100,0,255), 'Highest Vegetation NDVI>0.9'))
 
 myColorRamp.setColorRampItemList(i) #c
 myColorRamp.setClassificationMode(1) # this line doesn't work #c
