@@ -1,3 +1,7 @@
+# a prototype script that rns in the QGIS Python Console and Generates and NDVI and Key for TIF file orthomosaic drone images
+# Coding developed by MuonRay Enterprises Ireland For Drone-based Mapping and Geomatics Projects (2018-2020)
+# This work is Creative Commons and is Open to use for educational, non-commercial and NGO use.
+
 from PyQt5.QtGui import *
 
 from PyQt5.QtCore import *
