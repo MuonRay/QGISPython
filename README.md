@@ -5,3 +5,6 @@ Dual bandpass filters used on the modified DJI Mavic 2 Pro Full-Spectrum Hasselb
 https://www.ebay.ie/itm/155859816325
 
 https://www.ebay.ie/itm/155859834544
+
+
+filter used in short video on using dual bandpass filter to image plants in NIR using an unmodified smartphone camera 📷 here: https://www.ebay.ie/itm/156189179840 
